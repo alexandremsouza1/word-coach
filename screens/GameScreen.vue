@@ -48,7 +48,7 @@
             </nb-card>
             <nb-card v-else>
                 <nb-card-item class="title-flex">
-                    <nb-text class="question-text">Which word is <nb-text class="question-text italic">{{question.type}}</nb-text> to {{question.word}}?</nb-text>
+                    <nb-text class="question-text">Qual palavra é <nb-text class="question-text italic">{{question.type}}</nb-text> a {{question.word}}?</nb-text>
                 </nb-card-item>
                 <nb-card-item>
                     <nb-button 
@@ -115,7 +115,7 @@
                             width: 0,
                             height: 0,
                             borderWidth: dotWidth(i),
-                            borderRadius: '50%',
+                            borderRadius: 50,
                             borderColor: dot_color(i),
                             margin: 4.5,
                         }"
